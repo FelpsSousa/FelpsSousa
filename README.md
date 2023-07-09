@@ -15,4 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+[![FelpsSousa top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FelpsSousa&theme=purple-white)](https://github.com/anuraghazra/github-readme-stats)
+
 ![](https://komarev.com/ghpvc/?username=FelpsSousa&color=orange)
