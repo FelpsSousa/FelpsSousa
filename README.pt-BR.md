@@ -1,4 +1,4 @@
-<!-- FelpsXP profile README — Português · Última atualização: 14/09/2026 -->
+<!-- FelpsXP profile README, Português. Última atualização: 16/11/2026 -->
 <p align="right"><sub>🇧🇷 Português (esta página) · 🇺🇸 <a href="README.md">English</a></sub></p>
 
 <h1 align="center">Felipe Sousa · FelpsXP</h1>
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://felpsxp.com" target="_blank"><img src="https://img.shields.io/badge/FelpsXP-Portfólio-0A0A0A?style=for-the-badge" /></a>
+  <a href="https://felpsxp-hub-two.vercel.app" target="_blank"><img src="https://img.shields.io/badge/FelpsXP-Portfólio-0A0A0A?style=for-the-badge" /></a>
   <a href="https://www.linkedin.com/in/felipeluis-felpssousa/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:felipeluisrodriguessousa@gmail.com"><img src="https://img.shields.io/badge/-Contato-333?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
@@ -17,9 +17,9 @@
 
 ### 👋 Sobre
 
-Dev fullstack com ~2 anos de experiência em produção, construindo aplicações completas com **React/Next.js** no front e **Node.js/Python** no back. Atualmente aprofundando minha especialização em **segurança de aplicações e identidade (AppSec/IAM)**. Não encaro isso como "mais uma tecnologia": é uma direção de carreira, e quero ser a pessoa que constrói o sistema *e* o protege.
+Dev fullstack com ~2 anos de experiência em produção, construindo aplicações completas com **React/Next.js** no front e **Node.js/Python** no back. Estou aprofundando uma especialização em **segurança de aplicações e identidade (AppSec/IAM)** como direção de carreira deliberada: quero ser a pessoa que constrói o sistema *e* o protege.
 
-Tudo isso (produtos, estudo, decisões técnicas) é documentado e versionado dentro do **[FelpsXP](https://felpsxp.com)**, meu ecossistema pessoal de tecnologia: um "organismo digital" onde cada repositório é uma peça de um sistema maior que segue subindo de nível. A arquitetura e as decisões por trás de tudo isso são compartilhadas publicamente em **[felpsxp-architecture](https://github.com/FelpsSousa/felpsxp-architecture)**: trechos de código, diagramas e provas reais de funcionamento, tanto de projetos particulares quanto públicos, sem expor dados sensíveis ou comprometer os produtos de origem.
+Meus produtos, estudos e decisões técnicas vivem no **[FelpsXP](https://felpsxp-hub-two.vercel.app)**, um ecossistema pessoal de tecnologia em que cada repositório é uma peça de um sistema maior. Todo repositório registra suas decisões de arquitetura em ADRs, nasce da mesma base auditada (**[felpsxp-template](https://github.com/FelpsSousa/felpsxp-template)**: CI, varredura de segredos, política de segurança, Conventional Commits) e evolui por pull requests revisados. Os produtos privados aparecem no **[Hub](https://felpsxp-hub-two.vercel.app/projects)** como páginas de case, sem expor o código.
 
 ### 🧱 Stack
 
@@ -42,14 +42,13 @@ Infraestrutura que uso no dia a dia: `PostgreSQL` · `Supabase` · `Vercel` · `
 
 | Projeto | O que é | Stack |
 |---|---|---|
-| **[FelpsXP Hub](https://felpsxp.com)** | Portfólio e vitrine do ecossistema FelpsXP | Next.js, Vercel, Supabase |
-| **[FelpsXP Platform](https://github.com/FelpsSousa/felpsxp-architecture)** | Fundação de IAM/RBAC (base técnica da minha especialização em AppSec) | Node.js, PostgreSQL |
-| **[FelpsXP Finance](https://github.com/FelpsSousa/felpsxp-architecture)** | App financeiro multi-tenant (mobile + web a partir do mesmo código), desenhado para consumir o Platform como provedor de IAM | Expo Router, tRPC, PostgreSQL/Supabase (RLS), n8n |
+| **[FelpsXP Hub](https://felpsxp-hub-two.vercel.app)** ([código](https://github.com/FelpsSousa/felpsxp-hub)) | Portfólio e vitrine do ecossistema FelpsXP, com ADRs públicos, testes e checagens de acessibilidade | Next.js, TypeScript, Tailwind CSS, Vercel |
+| **[FelpsXP Platform](https://felpsxp-hub-two.vercel.app/projects/felpsxp-platform)** | Fundação de IAM/RBAC (base técnica da minha especialização em AppSec) | Node.js, PostgreSQL |
+| **[FelpsXP Finance](https://felpsxp-hub-two.vercel.app/projects/felpsxp-finance)** | App financeiro multi-tenant (mobile + web a partir do mesmo código), desenhado para consumir o Platform como provedor de IAM | Expo Router, tRPC, PostgreSQL/Supabase (RLS), n8n |
+| **[felpsxp-template](https://github.com/FelpsSousa/felpsxp-template)** | A base de onde nasce todo repositório FelpsXP: processo de ADRs, CI, varredura de segredos, política de segurança e transparência sobre IA | GitHub Actions, pre-commit, Shell |
 | **[beecrowd-problem-solving](https://github.com/FelpsSousa/beecrowd-problem-solving)** | Soluções de algoritmos e estrutura de dados | C++, Python |
 
-_FelpsXP Platform e Finance são produtos privados no momento: a arquitetura, decisões e trechos de código de cada um são documentados individualmente, do macro ao micro, dentro do [felpsxp-architecture](https://github.com/FelpsSousa/felpsxp-architecture)._
-
-🛒 **Em breve:** FelpsXP Smart Market List, uma lista de mercado inteligente para iOS e Android.
+_FelpsXP Platform e Finance são produtos privados por enquanto. As páginas de case no Hub descrevem a arquitetura e as decisões por trás deles._
 
 ### 📈 GitHub stats
 
@@ -67,6 +66,6 @@ _FelpsXP Platform e Finance são produtos privados no momento: a arquitetura, de
 
 - Consolidando a recolocação como fullstack (React/Next/Node/Python).
 - Iniciando a especialização em **AppSec/IAM**, com a meta de virar referência interna em segurança e conquistar minha primeira certificação na área.
-- Documentando tudo publicamente dentro do FelpsXP Knowledge, em construção.
+- Construindo em público onde é seguro: decisões em ADRs e toda mudança por pull request revisado.
 
 <p align="center"><i>Cada commit aqui é uma linha de XP no meu próprio sistema de progressão. 🎮</i></p>
